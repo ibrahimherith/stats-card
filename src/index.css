@@ -29,7 +29,9 @@ body {
 }
 
 .Card__image {
-  background-image: url("../public/images/image-header-desktop.jpg");
+  background: linear-gradient(rgba(170, 92, 219, 0.5), rgba(170, 92, 219, 0.5)),
+    url("../public/images/image-header-desktop.jpg");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

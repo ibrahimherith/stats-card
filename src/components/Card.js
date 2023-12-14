@@ -15,7 +15,7 @@ const Card = () => {
         </p>
 
         <div className="card-stats">
-          <CardStat heading={"10k"} paragraph={"Companies"} />
+          <CardStat heading={"10k+"} paragraph={"Companies"} />
           <CardStat heading={"314"} paragraph={"Templates"} />
           <CardStat heading={"12M+"} paragraph={"Queries"} />
         </div>

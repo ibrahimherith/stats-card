@@ -92,7 +92,7 @@ body {
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     height: 30%;
     border-radius: 1rem 1rem 0 0;
@@ -107,11 +107,11 @@ body {
 
   .card-header {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .card-description {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .card-stats {
@@ -119,6 +119,6 @@ body {
   }
 
   .stat:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 }

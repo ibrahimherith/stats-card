@@ -22,7 +22,7 @@ body {
 }
 
 .Card {
-  width: 90vw;
+  width: 80vw;
   height: 400px;
   background-color: hsl(244, 38%, 16%);
   display: flex;
@@ -125,11 +125,8 @@ body {
   }
 }
 
-@media (max-height: 840px) {
+@media (max-width: 640px) and (max-height: 840px) {
   .Card {
-    width: 328px;
     min-height: 90vh;
-    flex-direction: column;
-    overflow: hidden;
   }
 }
